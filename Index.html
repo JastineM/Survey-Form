@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <title>Emma Watson</title>
+</head>
+<body>
+    
+        <div class="header">
+            <div class="title-one"><h1>EMMA</h1></div>
+        </div>
+
+    <div class="nav">
+        <div class="navigation">
+                    <div class="nav-one">Menu</div>
+                    <div class="nav-two">Projects</div>
+                    <div class="nav-three">Contact Us</div>
+                    <div class="nav-four">About Us</div>
+        </div>
+    </div>
+    <div class="grid-one">
+        <div class="sidebar">
+            <img src="Asset/emma-img.jpg" alt="Black and white image of Emma">
+            <p><small>This is grabbed from an available source online.</small></p>
+        </div>
+        <div class="content">
+            <h2 style="font-size:60px">Her</h2>
+            <p> Emma Charlotte Duerre Watson was born on 15 April 1990 in Paris, to English lawyers Chris Watson and Jacqueline Luesby. Watson lived in Maisons-Laffitte near Paris until age five. Her parents divorced when she was young, and Watson moved to England to live with her mother in Oxfordshire while spending weekends at her father's house in London.Watson has said she speaks some French, though "not as well" as she used to.After moving to Oxford with her mother and brother, she attended the Dragon School, remaining there until 2003. From age six, she wanted to become an actress, and trained at the Oxford branch of Stagecoach Theatre Arts, a part-time theatre school where she studied singing, dancing, and acting.</p>
+            <br>
+            <p style="font-size:12px">Emma Watson is best known for her portrayal of Hermione in the Harry Potter series film.
+                But over the years, people have witnessed as she grows as a versatile actress and assumes
+                role beyond the film industry. In her most recent engagements, media continues to follow her as she becomes more vocal
+                about issues concerning gender equality. For more information, you may visit this 
+                <a href="https://www.britannica.com/biography/Emma-Watson">link.</a>
+            </p>
+        </div>
+    </div>
+    <div class="grid-two">
+        <div class="about">
+            <div class="about-one">
+                <h2>Actress</h2>
+                <p>She has won eight Teen Choice Awards, three MTVS Movie
+                Awards and had been nominated for various other awards throughout her
+                career.</p>
+            </div>
+            <div class="about-two">
+                <h2>Activist</h2>
+                <p>She was appointed UN Women Goodwill Ambassador. She also started the campaign
+                HeforShe which encourages men to support the feminist movement.</p>
+            </div>
+            <div class="about-three">
+                <h2>Writer</h2>
+                <p>She graduated from the Brown University and authored articles that
+                had circulated in international news outlet.</p>
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="gallery">
+            <div class="gallery-one">
+                <img src="Asset/sample photo-01.png">
+            </div>
+            <div class="gallery-two">
+                <img src="Asset/sample photo-02.png">
+            </div>
+            <div class="gallery-three">
+                <img src="Asset/sample photo-03.png">
+            </div>
+            <div class="gallery-four">
+                <img src="Asset/sample photo-04.png">
+            </div>
+            <div class="gallery-five">
+                <img src="Asset/sample photo-05.png">
+            </div>
+            <div class="gallery-six">
+                <img src="Asset/sample photo-06.png">
+            </div>
+        </div>
+    </div>
+        <br>
+<!--Form-->
+<button class="open-button" onclick="openForm()"><b>Subscribe now!</b></button>
+
+<div class="form-popup" id="survey-form">
+    <div class="container-one">
+        <div class="title-two">
+        <div id="title">
+            <H1>Newsletter Sign Up!</H1>
+            <p id="description">Subscribe to our newsletter to receive the latest
+                news and exclusive offers every week.</p>
+            </p>
+        </div>
+        </div>
+    </div>
+     <div class="grid-three">
+        <div class="main-two">
+        <form id="survey-form">
+            <label for="name-label">Name</label>
+                <input type="text" id="name" required placeholder="Enter your name"/><br>
+            <label for="email-label">Email</label>
+                <input type="text" id="email" required placeholder="Enter your mail"/><br>
+            <label for="number-label">Age</label> 
+                <input type="number" id="number" min="1" max="10" required placeholder="Enter here your rating"/>     
+            <br>
+                <label for="dropdown">Which topics are you interested in reading?</label>
+                <select id="dropdown">
+                    <div class="one"><option value="people">People</option></div>
+                    <div class="two"></div><option value="fashion">Fashion</option></div>
+                    <div class="three"></div><option value="environment">Environment</option></div>
+                    <div class="four"></div><option value="politics">Politics</option></div>
+                    <div class="five"></div><option value="technology">Technology</option></div>
+                    <div class="six"></div><option value="others">Others</option></div>
+                </select>
+            <br>
+            <br>
+        <fieldset>
+                How did you hear about us?<br>
+                <input id="Facebook" type="radio" name="attribute"/>
+                <label for="Facebook">Facebook</label>
+                <input id="Instagram" type="radio" name="attribute"/>
+                <label for="Instagram">Instagram</label>
+                <input id="Twitter" type="radio" name="attribute"/>   
+                <label for="Twitter">Twitter</label>
+                <input id="LinkedIn" type="radio" name="attribute"/>
+                <label for="LinkedIn">LinkedIn</label>
+        </fieldset>
+        <br>
+        <p>Which featured articles did you like best?</p>
+        <input id="science and women" type="checkbox" name="science and women"/>
+        <label for="science and women">Science and Women</label>
+        <input id="women and technology" type="checkbox" name="women and technology"/>
+        <label for="women and technology">Women and Technology</label>
+        <input id="women and the environment" type="checkbox" name="women and the environment"/>
+        <label for="women and the environment">Women and the Environment</label>
+        <br>
+        <br>
+    
+        <label for="suggestions"><p>Help us improve!</p></label>
+        <textarea rows="5" column="100" id="suggestions">Write us your comments and suggestions here.</textarea>
+        <br>
+        <button id = "Submit">Sign Up</button>
+        </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openForm() {
+      document.getElementById("survey-form").style.display = "block";
+    }
+    
+    function closeForm() {
+      document.getElementById("survey-form").style.display = "none";
+    }
+    </script>
+    
+
+</body>
+</html>
